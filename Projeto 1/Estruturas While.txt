@@ -1,0 +1,36 @@
+Tela de boas vindas
+
+While menu_navegação
+	
+	while menu_cadastro
+		while cadastramento_de_produtos
+		While lista_de_produtos_cadastrados
+		while deleção_de_produtos
+
+	
+	flag_menu_vendas	= ligado
+	flag_item_4A		= desligado
+	flag_item_4C		= desligado
+	
+	while flag_menu_vendas
+		Mostrar opçoes A e C
+		Se opção A for selecionada > ligar bloco 4A, desligar bloco 4C 
+		Se opção C for selecionada > ligar bloco 4C, desligar bloco 4A
+		Se opção sair do sistema for selecionada > desligar os blocos 4, 4A e 4C
+
+		while adição_de_produtos_ao_carrinho
+		...
+
+		while remoção_de_produtos_do_carrinho
+		...
+
+		while finalização_de_vendas_do_carrinho
+		...
+	
+	while menu_relatorios
+	
+Fim
+
+	
+ 
+
